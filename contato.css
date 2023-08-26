@@ -1,0 +1,41 @@
+
+.email{
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+
+.texto{
+  padding: 20px;
+}
+
+.tituloseguir{
+  font-size: 21px;
+}
+
+.instagram{
+  width: 15%;
+  margin-top: 50px;
+
+  }
+  .estudante{
+    display: flex;
+    justify-content: right;
+    margin-left: auto;
+  }
+
+  footer p{
+  margin: 4px;
+}
+
+@media (max-width: 768px){
+.estudante{
+  max-width: 50%;
+
+ }
+
+ .email,.formulario{
+  font-size: 13px;}
+
+}
+  
+ 

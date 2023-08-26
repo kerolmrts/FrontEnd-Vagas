@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <script src="https://kit.fontawesome.com/828defa0fe.js" crossorigin="anonymous"></script>
+    <title>Site de Estágios</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="heading grid">
+        <div class="topo">
+          <a href="index.html">
+            <img
+              id="logo"
+              src="https://cdn-icons-png.flaticon.com/512/53/53020.png"
+              alt="logo">
+          </a>
+          <h1>ESTÁGIOS RN</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a class="menu" href="index.html">Home</a></li>
+            <li><a class="menu" href="sobre.html">Sobre</a></li>
+            <li><a class="menu" href="vagas.html">Vagas</a></li>
+            <li><a class="menu" href="contato.html">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="grid">
+      <h2 class="welcome">Bem-vindo ao Estágios RN</h2>
+    <div class="both">
+      <section class="sessao-estagio">
+        <div class="estagio">
+          <h3 class="titulo-estagiario">Estágio</h3>
+          <p class="texto-estagio">
+            Se você tem a partir de 16 anos, quer desenvolver novas habilidades
+            e adquirir experiência na prática, o nosso programa de estágio te
+            oferece isso e muito mais! Comece agora sua jornada profissional de
+            sucesso.
+          </p>
+          <ul class="wrap">
+            <li class="itens"> &#10004 Até 6h diárias e 30h semanais</li>
+            <li class="itens"> &#10004 Pagamento de bolsa-auxílio</li>
+            <li class="itens"> &#10004 Auxílio-transporte e recesso remunerado</li>
+            <li class="itens">
+              &#10004 Interação diária com diversos profissionais e campos de atuação. </li>
+          </ul>
+        </div>
+        <picture class="imagemestagio">
+          <img class="imagem2" src="img/estagiario.jpg" alt="estagiario" />
+        </picture>
+      </section>
+      <section class="sessao-aprendiz">
+        <picture class="selection">
+          <img class="imagem1" src="img/aprendiz.jpg" alt="aprendiz" />
+        </picture>
+        <div class="estagio">
+          <h3 class="titulo-aprendiz">Jovem Aprendiz</h3>
+          <p class="texto-aprendiz">
+            Tem de 14 a 24 anos, está na escola ou já concluiu o ensino médio e
+            quer trabalhar? O Programa Jovem Aprendiz é para você!
+          </p>
+          <ul class="wrap">
+            <li class="itens">
+              &#10004 Contrato de 4h ou 6h diárias com direito a carteira assinada </li>
+            <li class="itens"> &#10004 Salário mínimo/hora</li>
+            <li class="itens"> &#10004 Vale transporte, 13ºsalário, INSS, férias</li>
+          </ul>
+        </div>
+      </section>
+      </div>
+     <h4 class="envie">Envie uma Vaga:</h4>
+<form class="formulario" action="https://getform.io/f/3b93af10-0132-41f9-a4cb-3bcb8236bb3a" method="POST" target="_blank">
+    <label for="titulo">Título:</label>
+    <input type="text" id="titulo" name="titulo" required />
+        <label for="area">Área de atuação:</label>
+         <select id="area" name="area">
+          <option value="select">Select</option>
+           <option value="administraçao">Administração</option>
+          <option value="arquitetura">Arquitetura e Urbanismo</option>
+          <option value="ciencia e Tecnologia">Ciência e Tecnologia</option>
+           <option value="comunicacao">Comunicação e Jornalismo</option>
+          <option value="economia">Economia</option>
+          <option value="educação fisica">Educação Física</option>
+           <option value="engenharia">Engenharia</option>
+          <option value="direito">Direito</option>
+          <option value="saude">Saúde</option>
+          <option value="outro"> Outro</option>
+         </select>
+        
+         <label for="municipio">Município:</label> 
+         <select id="municipio" name="municipio">
+          <option value="select">Select</option>
+          <option value="caicó">Caicó</option>
+          <option value="macaíba">Macaíba</option>
+          <option value="mossoró">Mossoró</option>
+          <option value="natal">Natal</option>
+          <option value="parnamirim">Parnamirim</option>
+          <option value="são gonçalo">São Gonçalo do Amarante</option>
+        </select>
+        <label for="descrição">Descrição da vaga:</label>
+         <textarea id="descrição" name="descrição" rows="8"></textarea>
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Limpar" />
+      </form>
+ <button class="button-scroll" aria-label="scroll" onclick="scrolltop()">
+    <i class="fas fa-chevron-up"></i>
+    </button>
+         </main>
+      <footer>
+        <div class="final grid">
+          <span>&copy;2023 ESTÁGIOS RN. TODOS OS DIREITOS RESERVADOS</span>
+        </div>
+      </footer>
+      <script src="main.js"></script>
+    </body>
+    </html>

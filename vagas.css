@@ -1,0 +1,19 @@
+
+  .vagas a img{
+    width: 500px;
+    height: 550px;
+    padding: 30px;
+     }
+     .vagas{
+      display:grid;
+       grid-template-columns: 1fr 1fr;
+       gap: 20px;     
+      
+     }
+
+     @media (max-width: 768px){
+      .vagas{
+        display: flex;
+  flex-direction: column;
+      }
+     }

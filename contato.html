@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="contato.css" />
+    <title>Contato</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="heading grid">
+        <div class="topo">
+          <a href="index.html">
+            <img
+              id="logo"
+              src="https://cdn-icons-png.flaticon.com/512/53/53020.png"
+              alt="logo"
+            />
+          </a>
+          <h1>ESTÁGIOS RN</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a class="menu" href="index.html">Home</a></li>
+            <li><a class="menu" href="sobre.html">Sobre</a></li>
+            <li><a class="menu" href="vagas.html">Vagas</a></li>
+            <li><a class="menu" href="contato.html">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <br />
+    <main class="grid">
+      <h2>Contato</h2>
+      <br />
+      <div class="texto">
+        <p class="email">
+          Deseja falar conosco? Mande e-mail para: estagiosrn@yahoo.com ou
+          utilize o formulário de contato abaixo:
+        </p>
+        <form
+          class="formulario"
+          action="https://getform.io/f/cc1f65da-c64b-46cc-8dee-a2207d907503"
+          method="POST"
+          target="_blank"
+        >
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" required /><br />
+         <label for="gender"> Gênero
+          <input type="radio" name="genero" value="masculino" />
+            Masculino
+          <input type="radio" name="genero" value="feminino" />
+            Feminino
+          <input type="radio" name="genero" value="outro" /> Outro
+          </label>
+          <br />
+         <br> <label for="email"> E-mail</label>
+          <input type="text" id="email" name="email" required /><br />
+          <label for="mensagem"> Mensagem</label>
+          <textarea id="mensagem" name="mensagem" rows="8"></textarea>
+          <input type="submit" value="Enviar" />
+          <input type="reset" value="Limpar" />
+        </form>
+      </div>
+      <div class="seguir grid">
+        <h3 class="tituloseguir">Confira nossa página no Instagram:</h3>
+        <a href="https://www.instagram.com/estagios_rn/">
+          <img
+            class="instagram"
+            src="img/instagramicon.webp"
+            alt="instagramlogo"
+        /></a>
+      </div>
+    </main>
+    <div class="foto grid">
+      <img class="estudante" src="img/estudante.png" alt="student" />
+    </div>
+    <footer>
+      <div class="final grid">
+        <span>&copy;2023 ESTÁGIOS RN. TODOS OS DIREITOS RESERVADOS</span>
+      </div>
+    </footer>
+  </body>
+</html>

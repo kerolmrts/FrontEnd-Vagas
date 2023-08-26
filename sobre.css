@@ -1,0 +1,32 @@
+ .textosobre{
+    padding: 30px 20px;
+  }
+  .titulosobre{
+    padding-bottom: 40px;
+  }
+
+  .wrapsobre{
+    text-align: justify;
+    font-size: 20px;
+  }
+  .foto{
+    width: 80%;
+    display: flex;
+    align-items: center;
+  }
+.students {
+  width: 50%;
+  margin-left: 300px;
+  }
+  
+.instagram{
+  width: 30px;
+  }
+
+
+
+ 
+   @media (max-width: 768px) {
+    .wrapsobre{
+      font-size: 13px;}
+   }
